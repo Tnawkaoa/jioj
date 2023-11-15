@@ -1,0 +1,36 @@
+h1{
+	color: white;
+	align: center;
+}
+
+h2{
+	color: white;
+}
+
+p {
+	color: white;
+	align: justify;
+	text-indent: 40px;
+}
+
+.bruh {
+	width: 100%;
+	align: center;
+}
+
+li { 
+	color: white;
+	
+.link {
+	color: white;
+}
+
+.media {
+	height: 50px;
+}
+
+.background {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

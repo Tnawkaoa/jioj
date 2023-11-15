@@ -1,0 +1,44 @@
+.tabel {
+	background-image: linear-gradient(to right, #000000, #211113, #391a19, #51241b, #673119, #673119, #673119, #673119, #51241b, #391a19, #211113, #000000);
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	border: 5px solid black;
+	border-bottom: 3px solid #BD6216;
+}
+
+body {
+	background-image: url(dessert.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tabel-satu {
+	text-align: center;
+	top: 10px;
+}
+
+.pening {
+	height: 50px;
+}
+
+.pening:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s;
+}
+
+iframe {
+	width: 100%;
+	background: rgb(0,0,0);
+	height: 500px;
+background: linear-gradient(90deg, rgba(0,0,0,0.5057520604395604) 67%, rgba(0,0,0,0.49912920102968317) 100%);
+	
+}
+
+footer {
+	background-image: url('foot.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

@@ -1,0 +1,65 @@
+table{ 
+	width: 1000px;
+	/border-spacing: 1000px;
+}
+.tabel {
+	background-image: linear-gradient(to right, #000000, #2e2e2e, #585858, #878787, #b9b9b9, #b9b9b9, #b9b9b9, #b9b9b9, #878787, #585858, #2e2e2e, #000000);
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	width: 100%;
+	border: 5px solid black;
+	border-bottom: 3px solid #98A907;
+}
+th{
+	text-align: left;
+}
+table, th, td{
+	border: 1px solid #000;
+}
+
+body{
+	background-image : url('SnowBiome.gif');
+	background-repeat : no-repeat;
+	background-size : cover;
+}
+
+.header {
+	width: 1000px;
+	padding-bottom: 20px;
+}
+
+.header-img {
+	width: 500px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 200px auto;
+	width: 1200px;
+	gap: 20px;
+}
+
+.con-left {
+	display: grid;
+	grid-template-rows: auto auto auto;
+}
+
+.con-right {
+	display: grid;
+	grid-template-columns: 90% 90%;
+	position: absolute;
+	top: 260px;
+	left: 500px;
+	
+}
+
+.con-image {
+	width: 100%;
+	height: 100%;
+}
+
+.con-right, .con-left {
+	gap: 10px;
+}
